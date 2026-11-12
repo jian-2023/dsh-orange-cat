@@ -1,0 +1,25 @@
+- insert:
+    - id: orange-cat
+      name: "dsh-orange-cat"
+      config:
+        enabled: true
+        # 猫的大小（px，正方形画布边长）
+        size: 150
+        # 初始位置：右下角距边距（px）；拖动后的位置会记在浏览器 localStorage
+        marginX: 28
+        marginY: 28
+        # 音量 0..1
+        volume: 0.8
+        # 任务完成提醒音：曼波 / 哈基米 各 1/2（与原生版一致）
+        doneSounds: ['manbo.wav', 'hjm.wav']
+        # 需要确认/选择时的提醒音：固定曼波
+        askSounds: ['manbo.wav']
+        # 是否在浏览器里侦测「助手回答结束」并自动播放提示音
+        # （另提供 POST /orange-cat/notify?kind=done|ask 供脚本显式触发）
+        taskDoneWatch: true
+        # 片段权重（与原生版一致：静坐 70%，其余随机）
+        weights:
+          real_sit: 0.74
+          real_groom: 0.16
+          real_1: 0.05
+          real_2: 0.05

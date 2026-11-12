@@ -1,0 +1,38 @@
+{
+  "name": "dsh-orange-cat",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Orange cat desktop pet inside the DSH web GUI — sprite-sheet animation, click/drag interactions, and a chime when the assistant finishes a task. · 橘猫桌宠 DSH 插件：动画、点击交互、任务完成提示音。",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "media/*.png",
+    "media/*.json",
+    "media/*.wav",
+    "locale/*.json",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "desktop-pet",
+    "cat",
+    "plugin"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

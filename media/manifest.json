@@ -1,0 +1,58 @@
+{
+ "anims": {
+  "real_sit": {
+   "sheet": "sheet_real_sit.png",
+   "fw": 154,
+   "fh": 180,
+   "cols": 13,
+   "rows": 4,
+   "count": 50,
+   "delay": 132
+  },
+  "real_groom": {
+   "sheet": "sheet_real_groom.png",
+   "fw": 180,
+   "fh": 178,
+   "cols": 11,
+   "rows": 3,
+   "count": 26,
+   "delay": 198
+  },
+  "real_1": {
+   "sheet": "sheet_real_1.png",
+   "fw": 180,
+   "fh": 178,
+   "cols": 11,
+   "rows": 3,
+   "count": 33,
+   "delay": 462
+  },
+  "real_2": {
+   "sheet": "sheet_real_2.png",
+   "fw": 161,
+   "fh": 180,
+   "cols": 12,
+   "rows": 3,
+   "count": 29,
+   "delay": 264
+  },
+  "pose_surprise": {
+   "sheet": "sheet_pose_surprise.png",
+   "fw": 174,
+   "fh": 200,
+   "cols": 1,
+   "rows": 1,
+   "count": 1,
+   "delay": 100
+  },
+  "pose_tilt": {
+   "sheet": "sheet_pose_tilt.png",
+   "fw": 159,
+   "fh": 200,
+   "cols": 1,
+   "rows": 1,
+   "count": 1,
+   "delay": 100
+  }
+ }
+}
